@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Weather App</title>
+    <link rel="stylesheet" href="about.css" />
+</head>
+<style>html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .n1{
+    color:black;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  img{}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: aliceblue;
+    color: #000;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }</style>
+
+<body>
+   <div class="container">
+        <h1>About Weather App</h1>
+        <p id="description"></p>
+        <!--<h2>Meet the Team</h2>
+          <div class="team-member">
+            <img src="Walter White.png" alt="Person 1" />
+            <h3>Walter White</h3>
+            <p>Founder and CEO</p>
+        </div>
+        <div class="team-member">
+            <img src="Jesse Pinkman.png" alt="Person 2" />
+            <h3>Jesse Pinkman</h3>
+            <p>Lead Developer</p>
+        </div>-->
+    </div>
+    <h2 style="text-align:center" class="n1">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="#" alt="Deva" style="width:100%">
+      <div class="container">
+        <h2>Deva Vichare</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>deva@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Sairaj" style="width:100%">
+      <div class="container">
+        <h2>Sairaj Yende</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>sairaj@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Kaushal" style="width:100%">
+      <div class="container">
+        <h2>Kaushal Satam</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>kaushal@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="about.js"></script>
+</body>
+
+</html>

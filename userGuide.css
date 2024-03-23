@@ -1,0 +1,32 @@
+body{
+    background-color: skyblue;
+    background-image: url("weather.jpg");
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: aliceblue;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  
+  img {
+    max-width: 80%;
+    margin: 30px auto;
+  }
+  
